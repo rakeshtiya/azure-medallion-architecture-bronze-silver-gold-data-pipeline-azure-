@@ -1,0 +1,17 @@
+# Azure Medallion Pipeline - Dependencies
+# Note: Most processing happens in Azure Databricks (PySpark)
+# These are for local development/testing
+
+# Azure SDKs
+azure-storage-blob>=12.19.0
+azure-identity>=1.15.0
+
+# Data Processing (for local testing)
+pandas>=2.0.0
+pyarrow>=14.0.0
+
+# PySpark (local development)
+pyspark>=3.5.0
+
+# Utilities
+python-dotenv>=1.0.0
